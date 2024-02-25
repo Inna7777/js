@@ -35,4 +35,4 @@ isNaN(numCel)
   }
   
   const Celsiy = prompt('Введите градусы Цельсия', '');
-  alert(`3.Цельсий: ${C}  Фарингейт: ${faringate(C)}`);
+  alert(`3.Цельсий: ${Celsiy}  Фарингейт: ${faringate(Celsiy)}`);
