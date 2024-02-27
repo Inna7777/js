@@ -21,10 +21,23 @@
 // Задание 2:
 
 // 1. Найти остаток от деления переменных `a` на `b`, где a = 13, b = 5.
-const numberOne = 13;
-const numberTwo = 5;
-console.log(numberOne % numberTwo);
-// определение четное или нечетное число
-numberOne % 2 > 0
-  ? console.log(`${numberOne} -нечетное число`)
-  : console.log(`${numberOne} -четное число`);
+// const numberOne = 13;
+// const numberTwo = 5;
+// console.log(numberOne % numberTwo);
+// // определение четное или нечетное число
+// numberOne % 2 > 0
+//   ? console.log(`${numberOne} -нечетное число`)
+//   : console.log(`${numberOne} -четное число`);
+
+// 3. Пользователь с клавиатуры вводит 2 числа, необходимо в консоль вывести весь
+// текст ниже, одной строкой с переносами строк:
+
+const numberOne = +prompt("Введите число 1: ");
+const numberTwo = +prompt("Введите число 2: ");
+
+console.log(`Сумма чисел равна ${numberOne + numberTwo}. Разность чисел равна ${
+  numberOne - numberTwo
+}.
+Произведение чисел равно ${numberOne * numberTwo}.
+Частное чисел равно ${numberOne / numberTwo}.
+Остаток от деления чисел равен ${numberOne % numberTwo}.`);
