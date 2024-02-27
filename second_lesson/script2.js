@@ -32,12 +32,35 @@
 // 3. Пользователь с клавиатуры вводит 2 числа, необходимо в консоль вывести весь
 // текст ниже, одной строкой с переносами строк:
 
-const numberOne = +prompt("Введите число 1: ");
-const numberTwo = +prompt("Введите число 2: ");
+// const numberOne = +prompt("Введите число 1: ");
+// const numberTwo = +prompt("Введите число 2: ");
 
-console.log(`Сумма чисел равна ${numberOne + numberTwo}. Разность чисел равна ${
-  numberOne - numberTwo
-}.
-Произведение чисел равно ${numberOne * numberTwo}.
-Частное чисел равно ${numberOne / numberTwo}.
-Остаток от деления чисел равен ${numberOne % numberTwo}.`);
+// console.log(`Сумма чисел равна ${numberOne + numberTwo}.
+// Разность чисел равна ${numberOne - numberTwo}.
+// Произведение чисел равно ${numberOne * numberTwo}.
+// Частное чисел равно ${numberOne / numberTwo}.
+// Остаток от деления чисел равен ${numberOne % numberTwo}.`);
+
+// Задание 4
+// 1. Не запуская код, определите, что выводится в консоль:
+// ```
+//console.log(String(true));
+// // если есть при сложении строка = получим строку
+// console.log("a" + true);
+// console.log(Number(true));
+// // // так как нет строки, все превращается в число
+// console.log(true + 1);
+// // // так как нет строки, все превращается в число
+// console.log(true + true);
+// console.log(true - true);
+// console.log(String(true) + Number(true));
+// // ```
+
+// const yourName = prompt("Ваше имя", "");
+// if (yourName === null) {
+//   //     // Пользователь отменил ввод
+//   alert("Ввод отменен");
+// } else {
+//   //     // Пользователь ввел (корректные) данные
+//   alert(`Добро пожаловать на сайт,  ${yourName}`);
+// }
