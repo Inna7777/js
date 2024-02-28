@@ -14,4 +14,16 @@
 число 32.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const dayNumber = Number(
+  prompt("Введите число месяца от 1 до 31-включительно")
+);
+let n = 1;
+if (dayNumber >= 1 && dayNumber <= 10) {
+  console.log(`Число ${dayNumber} попадает в ${n}-ю декаду месяца`);
+} else if (dayNumber >= 11 && dayNumber <= 20) {
+  console.log(`Число ${dayNumber} попадает в ${n + 1}-ю декаду месяца`);
+} else if (dayNumber >= 21 && dayNumber <= 31) {
+  console.log(`Число ${dayNumber} попадает в ${n + 2}-ю декаду месяца`);
+} else {
+  console.log(`Вы ввели неккоректные значения`);
+}
