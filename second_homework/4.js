@@ -25,11 +25,8 @@
 
 const number = Number(prompt("Введите число", ""));
 let units = number % 10;
-console.log(units);
 let dozen = Math.floor((number % 100) / 10);
-console.log(dozen);
 let hundred = Math.floor((number % 1000) / 100);
-console.log(hundred);
 console.log(
   `В числе ${number} количество сотен: ${hundred}, десятков: ${dozen}, единиц: ${units}`
 );
