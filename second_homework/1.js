@@ -13,8 +13,8 @@
 в консоль "Одно или более значений некорректно.".
 */
 
-const positive = Number(prompt("Введите положительное число", ""));
-const negative = Number(prompt("Введите отрицательное число", ""));
-positive > 0 && negative < 0
-  ? console.log("Все значения верные")
-  : console.log("Одно или более значений некорректно.");
+// const positive = Number(prompt("Введите положительное число", ""));
+// const negative = Number(prompt("Введите отрицательное число", ""));
+// positive > 0 && negative < 0
+//   ? console.log("Все значения верные")
+//   : console.log("Одно или более значений некорректно.");
