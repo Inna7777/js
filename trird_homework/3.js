@@ -15,6 +15,13 @@ const num2 = +prompt("Введите второе число", "");
 const num3 = +prompt("Введите третье число", "");
 getMaxnumber(num1, num2, num3);
 
+/**
+ * Функция находит максмальное число
+ * @param {number} n1
+ * @param {number} n2
+ * @param {number} n3
+ * @returns {number}- выводим сообщение о максимальном числе
+ */
 function getMaxnumber(n1, n2, n3) {
   let max = n1;
   if (n2 > max && n2 > n3) {

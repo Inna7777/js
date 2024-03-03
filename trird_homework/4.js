@@ -18,4 +18,27 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 Демонстрировать работы функций не обязательно.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+function summa(n1, n2) {
+  return n1 + n2;
+}
+
+function difrent(n1, n2) {
+  if (n1 >= n2) {
+    return n1 - n2;
+  } else {
+    return n2 - n1;
+  }
+}
+function multy(n1, n2) {
+  return n1 * n2;
+}
+function del(n1, n2) {
+  if (n2 === 0) {
+    return "Делить на 0 нельзя";
+  } else return n1 / n2;
+}
+
+console.log(summa(2, 8));
+console.log(difrent(2, 8));
+console.log(multy(2, 8));
+console.log(del(2, 8));
