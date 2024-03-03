@@ -7,4 +7,13 @@
 который получаем от функции, в консоль.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+/**
+ * Функция возвращает куб числа
+ * @param {number} number
+ * @returns {number}
+ */
+function getCubeNamber(number) {
+  return number ** 3;
+}
+
+console.log(getCubeNamber(3));
