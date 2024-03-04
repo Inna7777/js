@@ -17,22 +17,45 @@ console.log(sum(2, 6)); должно вывести число 8 в консол
 не нужно.
 Демонстрировать работы функций не обязательно.
 */
-
+/**Сумма двух чисел
+ * @param {number} n1
+ * @param {number} n2
+ * @returns {number}
+ */
 function summa(n1, n2) {
   return n1 + n2;
 }
 
-function difrent(n1, n2) {
+/**
+ * Разность двух чисел
+ * @param {number} n1
+ * @param {number} n2
+ * @returns {number}
+ */
+function difference(n1, n2) {
   if (n1 >= n2) {
     return n1 - n2;
   } else {
     return n2 - n1;
   }
 }
-function multy(n1, n2) {
+/**
+ * Произведение двух чисел
+ * @param {number} n1
+ * @param {number} n2
+ * @returns
+ */
+function multiplication(n1, n2) {
   return n1 * n2;
 }
-function del(n1, n2) {
+
+/**
+ * Частное двух чисел
+ * @param {number} n1
+ * @param {number} n2
+ * @returns
+ */
+function division(n1, n2) {
   if (n2 === 0) {
     return "Делить на 0 нельзя";
   } else return n1 / n2;
