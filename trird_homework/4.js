@@ -35,10 +35,10 @@ function summa(n1, n2) {
 function difference(n1, n2) {
   if (n1 >= n2) {
     return n1 - n2;
-  } else {
-    return n2 - n1;
   }
+  return n2 - n1;
 }
+
 /**
  * Произведение двух чисел
  * @param {number} n1
@@ -53,7 +53,7 @@ function multiplication(n1, n2) {
  * Частное двух чисел
  * @param {number} n1
  * @param {number} n2
- * @returns
+ * @returns  {number|string}
  */
 function division(n1, n2) {
   if (n2 === 0) {

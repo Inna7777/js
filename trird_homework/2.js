@@ -10,7 +10,7 @@
 */
 
 const salary = Number(prompt("Введите зарплату", ""));
-if (isNaN(salary)) {
+if (Number.isFinite(salary)) {
   console.log("Значение задано неверно");
 } else {
   console.log(
@@ -21,7 +21,7 @@ if (isNaN(salary)) {
 /**
  * Функция расчета заработной платы
  * @param {number} num
- * @returns number
+ * @returns {number}
  */
 function getSalary(num) {
   return salary - salary * 0.13;

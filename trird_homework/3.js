@@ -20,16 +20,18 @@ getMaxnumber(num1, num2, num3);
  * @param {number} n1
  * @param {number} n2
  * @param {number} n3
- * @returns {number}- выводим сообщение о максимальном числе
+ * - выводим сообщение о максимальном числе
  */
 function getMaxnumber(n1, n2, n3) {
-  let max = n1;
-  if (n2 > max && n2 > n3) {
-    max = n2;
-  } else if (n3 > n2 && n3 > max) {
-    max = n3;
-  }
-  return console.log(
-    `Максимальное значение среди чисел ${n1}, ${n2}, ${n3} равно ${max}`
-  );
+  // let max = n1;
+  // if (n2 > max && n2 > n3) {
+  //   max = n2;
+  // } else if (n3 > n2 && n3 > max) {
+  //   max = n3;
+  // }
+  // return console.log(
+  //   `Максимальное значение среди чисел ${n1}, ${n2}, ${n3} равно ${max}`
+  // );
+  let max = Math.max(n1, n2, n3);
+  return max;
 }
