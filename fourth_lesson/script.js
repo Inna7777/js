@@ -140,15 +140,15 @@
 // консоль до тех пор, пока не встретится элемент со значением 0. После этого
 // цикл должен завершить свою работу.
 
-const massiv = [2, 5, 9, 0, 3, 1, 4];
+// const massiv = [2, 5, 9, 0, 3, 1, 4];
 
-for (let i = 0; i < massiv.length; i++) {
-  if (massiv[i] !== 0) {
-    console.log(massiv[i]);
-  } else {
-    break;
-  }
-}
+// for (let i = 0; i < massiv.length; i++) {
+//   if (massiv[i] !== 0) {
+//     console.log(massiv[i]);
+//   } else {
+//     break;
+//   }
+// }
 
 // Задание 5:
 
@@ -437,3 +437,18 @@ for (let i = 0; i < massiv.length; i++) {
 // метод filter
 // (method) Array<number>.filter(predicate:
 // (value: number, index: number, array: number[]) => unknown, thisArg?: any): number[] (+1 overload)
+
+const arr = [2, 4, 8];
+let newArr = arr;
+newArr[0] = 16;
+console.log(arr);
+console.log(newArr);
+
+newArr = arr.map((el) => el * 10);
+
+console.log(newArr);
+console.log(arr);
+newArr[0] = 55;
+
+console.log(arr);
+console.log(newArr);
