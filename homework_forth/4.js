@@ -12,4 +12,12 @@ xxxx
 xxxxx
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+let sign = "";
+for (let i = 1; i < 21; i++) {
+  console.log((sign += "X"));
+}
+
+// второй вариант
+for (let i = 1; i <= 20; i++) {
+  console.log("x".repeat(i));
+}
