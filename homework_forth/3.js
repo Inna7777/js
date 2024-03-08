@@ -14,4 +14,25 @@
 не окажется, значит нужно будет вывести пустой массив.
 */
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const array = []; // пустой массив
+for (let i = 0; i < 5; i++) {
+  array.push(Math.floor(Math.random() * 10));
+}
+console.log(array); // полученный массив после рандома
+
+let sumArray = 0; // сумма чисел массива
+let minArray = array[0]; //минимальное значение массива
+let arrayEqual3 = []; // массив из индексов числа "3"
+
+for (let i = 0; i < array.length; i++) {
+  sumArray += array[i];
+  if (minArray > array[i]) {
+    minArray = array[i];
+  }
+  if (array[i] === 3) {
+    arrayEqual3.push(i);
+  }
+}
+console.log(sumArray);
+console.log(minArray);
+console.log(arrayEqual3);
